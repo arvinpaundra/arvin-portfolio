@@ -1,0 +1,17 @@
+li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin-bottom: 2.625rem;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  li {
+    font-size: 1rem;
+  }
+}

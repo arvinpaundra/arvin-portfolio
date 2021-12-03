@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3a4257;
+  height: 561px;
+  padding: 0 4rem;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 0 1rem;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .header:nth-child(1) {
+    order: 2;
+  }
+
+  .header:nth-child(2) {
+    order: 1;
+  }
+}

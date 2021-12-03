@@ -1,0 +1,29 @@
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1.125rem;
+}
+
+.contact-item__img {
+  width: 2rem;
+}
+
+p.contact-item__text {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 425px) {
+  .contact-item {
+    gap: 1rem;
+  }
+
+  .contact-item__img {
+    width: 1.5rem;
+  }
+
+  p.contact-item__text {
+    font-size: 1rem;
+  }
+}

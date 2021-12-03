@@ -1,0 +1,80 @@
+.header-desc {
+  color: #fff;
+}
+
+.header__name {
+  font-family: 'Raleway';
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header__interest {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.header__cta {
+  display: flex;
+  align-items: center;
+  gap: 1.625rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.header__download-cv {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 0.625rem 1.25rem;
+  background-color: #ffbb00;
+  color: #fff;
+  border: 2px solid #ffbb00;
+  border-radius: 4px;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.header__download-cv:hover {
+  transition: all 0.2s;
+  background-color: #ebad03;
+}
+
+button.header__hire-me {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 0.625rem 1.25rem;
+  background-color: transparent;
+  color: #ffbb00;
+  border-radius: 4px;
+  border: 2px solid #ffbb00;
+  cursor: pointer;
+}
+
+button.header__hire-me:hover {
+  background-color: #ebad03;
+  border: 2px solid #ebad03;
+  color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .header-desc {
+    order: 2;
+  }
+
+  .header__name {
+    font-size: 1.5rem;
+  }
+
+  .header__cta {
+    gap: 1rem;
+  }
+
+  .header__download-cv,
+  button.header__hire-me,
+  .header__interest {
+    font-size: 1rem;
+  }
+}

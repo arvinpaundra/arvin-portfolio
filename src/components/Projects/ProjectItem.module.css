@@ -1,0 +1,51 @@
+.project__item {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 2rem 0 1rem 0;
+}
+
+.project__item .project__img {
+  width: 50%;
+  border-radius: 0.5rem;
+}
+
+.project__item .project__desc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project__desc .project__desc-title {
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+
+.project__desc.project__desc-text {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.swap {
+  order: 2;
+}
+
+@media screen and (max-width: 425px) {
+  .project__item {
+    flex-wrap: wrap;
+  }
+
+  .project__item .project__desc {
+    justify-content: start;
+  }
+
+  .project__item .project__img,
+  .project__item .project__desc {
+    width: 90%;
+  }
+
+  .swap {
+    order: 1;
+  }
+}

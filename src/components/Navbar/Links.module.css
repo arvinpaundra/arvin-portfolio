@@ -1,0 +1,33 @@
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__links p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navbar__links p:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar__links {
+    display: none;
+    position: fixed;
+    left: -100%;
+    top: 56px;
+    flex-direction: column;
+    background-color: #2e3546;
+    width: 100%;
+    transition: 0.3s;
+    padding: 0.5rem 0;
+    overflow: hidden;
+  }
+
+  .navbar__links {
+    left: 0;
+  }
+}

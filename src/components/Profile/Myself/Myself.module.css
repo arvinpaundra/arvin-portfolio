@@ -1,0 +1,39 @@
+.myself__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.myself__wrapper img {
+  width: 450px;
+}
+
+.myself__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.myself__info p {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.myself__info p span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+  .myself__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .myself__wrapper img {
+    width: 80%;
+    height: 80%;
+  }
+  .myself__info p {
+    font-size: 1rem;
+  }
+}

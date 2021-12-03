@@ -1,0 +1,9 @@
+.contact__img {
+  width: 500px;
+}
+
+@media screen and (max-width: 425px) {
+  .contact__img {
+    width: 70%;
+  }
+}

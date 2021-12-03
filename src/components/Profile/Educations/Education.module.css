@@ -1,0 +1,10 @@
+.about__education {
+  display: flex;
+  gap: 4.75rem;
+}
+
+@media screen and (max-width: 425px) {
+  .about__education {
+    gap: 1rem;
+  }
+}

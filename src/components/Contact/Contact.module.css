@@ -1,0 +1,44 @@
+.contact {
+  padding: 1rem 0 2rem 0;
+  height: 100vh;
+}
+
+.subheading {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact .subheading span {
+  position: relative;
+  z-index: 0;
+}
+
+.contact .subheading span::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: 0.2rem;
+  background: orange;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 90%, 100% 83%, 100% 100%, 0% 100%);
+}
+
+.contact__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+  .contact {
+    height: fit-content;
+  }
+
+  .contact__section {
+    flex-direction: column;
+  }
+}

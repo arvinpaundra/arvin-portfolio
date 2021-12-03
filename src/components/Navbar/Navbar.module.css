@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  height: 3.5rem;
+  background-color: #2e3546;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+}

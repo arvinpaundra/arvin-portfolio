@@ -1,0 +1,11 @@
+.profile-filter {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 425px) {
+  ul {
+    width: 100%;
+  }
+}

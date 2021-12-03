@@ -1,0 +1,19 @@
+.header-img {
+  padding: 0.625rem;
+}
+
+.header-img img.header-img__img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 425px) {
+  .header-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-img img.header-img__img {
+    width: 70%;
+  }
+}
